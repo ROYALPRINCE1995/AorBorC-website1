@@ -1,0 +1,247 @@
+ body{
+     font-family:Pridi;
+     -webkit-font-smoothing: antialiased;
+     color:#444;
+     font-size:14px;
+}
+ .about_us{
+     text-align: justify;
+     font-size: 16px;
+}
+ .my_h3{
+     color:#75ac58;
+     font-size:50px;
+}
+ #abt_us_back{
+     height:700px;
+     width: 100%;
+     background: url(img/abt_us1.jpg) no-repeat center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+ .centered {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+ .centered1 {
+     position: absolute;
+     top:60%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+ .page_title {
+     color: #676363;
+     font-size:60px;
+     font-weight: 600;
+     text-align: center;
+}
+ .page_title1 {
+     color: #676363;
+     font-size:20px;
+     text-align: center;
+}
+ h2.about-big-txt {
+     font-size: 100px;
+     color: #75ac58;
+}
+ h2.about-big-txt span {
+     font-size:19px;
+     color: #7f7f7f;
+     font-weight: 600;
+}
+ p.about-txt-01 {
+     color: #7f7f7f;
+     font-size: 19px;
+     text-align: center;
+     padding-bottom: 15px;
+}
+ p,h2,span{
+    margin-bottom: 0px;
+}
+/*career start here*/
+ #career_back{
+     height:700px;
+     width: 100%;
+     background-image: url(https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     opacity: 0.9;
+}
+ a {
+     color: #75ac58;
+     text-decoration: none;
+     font-size:22px;
+}
+ h1{
+    color: #7f7f7f;
+}
+ h1.why{font-size:70px;
+    color: #75ac58;
+
+ }
+ .my_card{
+     border-radius:0px;
+     padding-bottom:90px;
+     padding-top:30px;
+     cursor:pointer;
+     height: 280px;
+}
+ .mycard1{
+     padding-top: 30px;
+     background: url(img/careers-icon1.png) no-repeat;
+}
+ .mycard1:hover {
+     background: #3d9ebe url(img/careers-icon2.png) no-repeat;
+     -webkit-transition: all .6s ease;
+}
+ .mycard2:hover {
+     background: #de5135 url(img/careers-icon2-hover.png) no-repeat;
+     -webkit-transition: all .6s ease;
+}
+ .mycard3:hover {
+     background: #5ea063 url(img/careers-icon3-hover.png) no-repeat;
+     -webkit-transition: all .6s ease;
+}
+ .mycard4:hover {
+     background: #ddb860 url(img/careers-icon4-hover.png) no-repeat;
+     -webkit-transition: all .6s ease;
+     position: absolute;
+     width: 100%;
+     display:block;
+}
+ .mycard5:hover {
+     background: #704280 url(img/careers-icon5-hover.png) no-repeat;
+     -webkit-transition: all .6s ease;
+}
+ .mycard6:hover {
+     background: #3d9ebe url(img/careers-icon6-hover.png) no-repeat;
+     -webkit-transition: all .6s ease;
+}
+ .bg_text:hover h5 {
+     color: #fff;
+}
+ .bg_text:hover p {
+     color: #fff;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (max-width: 600px) {
+     .page_title {
+         color: #676363;
+         font-size:50px;
+         font-weight: 600;
+         text-align: center;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (max-width: 768px) {
+     .page_title {
+         color: #676363;
+         font-size:10px;
+         font-weight: 600;
+         text-align: center;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (max-width: 992px) {
+    ...
+}
+/* .bg1, .bg2, .bg3, .bg4, .bg5, .bg6 {
+     border: 1px solid #ccc;
+}
+ .padding_align {
+     padding-top: 50px;
+     padding-bottom: 50px;
+     height: 300px;
+}
+ h4.sec-title-txt {
+     color: #000;
+     font-weight: 700;
+     font-size: 21px;
+     text-align: center;
+     text-transform: uppercase;
+     margin: 20px 0;
+}
+ .sec-sub-title-txt {
+     color: #000;
+     font-weight: 500;
+     font-size: 14px;
+     text-align: center;
+}
+ .bg_text:hover h4 {
+     color: #fff 
+}
+ .bg_text:hover p {
+     color: #fff 
+}
+ .bg1: {
+     width: 80PX;
+     margin: 0 auto;
+     display: none;
+}
+ .bg1:hover {
+     width: 80PX;
+     margin: 0 auto;
+     background: #3d9ebe url(img/careers-icon1-hover.png) no-repeat;
+}
+ .bg2:hover {
+     background: #de5135 url(img/careers-icon2-hover.png) no-repeat;
+     margin: 0 auto;
+     width: 80PX;
+}
+ .bg3:hover {
+     background-color: #5ea063;
+     -webkit-transition: all .6s ease 
+}
+ .bg4:hover {
+     background-color: #ddb860;
+     -webkit-transition: all .6s ease 
+}
+ .bg5:hover {
+     background-color: #704280;
+     -webkit-transition: all .6s ease 
+}
+ .bg6:hover {
+     background-color: #337ab7;
+     transition: all .6s ease;
+     -webkit-transition: all .6s ease 
+}
+ .service-icon-box-center {
+     width: 80px;
+     display: block;
+     margin: 0 auto;
+     background: 0 0;
+}
+ .my {
+     background: url(img/careers-icon1.png);
+     width: 80px;
+     margin: 0 auto;
+     background: 0 0;
+}
+ .my:hover {
+     background: #3d9ebe url(img/careers-icon1-hover.png) no-repeat;
+     width: 80px;
+     margin: 0 auto;
+     background: 0 0;
+}
+ .imgBox {
+     width: 191px;
+     height: 191px;
+     background:url(img/careers-icon1.png) 0 0 no-repeat;
+     margin: 0 auto;
+}
+ .imgBox:hover {
+     width: 191px;
+     height: 191px;
+     background: #777 url(img/careers-icon1-hover.png) no-repeat;
+     margin: 0 auto;
+}
+ */
+.box_shadow {
+    box-shadow: 0 1px 3px rgba(0,0,0,.25);
+}
